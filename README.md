@@ -27,10 +27,11 @@ Also, provide related **python scripts** for those preparations.  note: OS of my
 * Right after you click "Download" at Academic Torrents, torrent file is downloaded
 * Click the downloaded torrent file, you can start application "Transmission" (Ubuntu 18.04 LTS) to download dataset.
 * **You may need to change configuration of "Transmission"** to start download dataset.
-  For watching log, go to "Help" --> "Message Log".
+* For watching log, go to "Help" --> "Message Log".
 * **My case** is that:
-  - Downloading never starts after waiting 24 hours. I checked "Message Log" and found that some relevant peers were found but "IPv6 DHT not ready"
-  - I opened "Settings" of the "Transmission" and go to "Network" tab.  Changed receiving connection port to 80
+  - Downloading never started after waiting 24 hours.
+  - Check "Message Log" and find that some relevant peers are found but "IPv6 DHT not ready"
+  - Open "Settings" of the "Transmission" and go to "Network" tab.  Chang receiving connection port to 80
   - **Uncheck**: using random ports, using UPnP or NAT-PMP
   - **Uncheck** also:  all options
     -->  This may result to **slower** downloading though.
