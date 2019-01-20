@@ -15,15 +15,14 @@ Also, provide related **python scripts** for those preparations.  note: OS of my
 ### 1. Find ImageNet LSVRC 2012 dataset and download torrent file
 * Go to Academic Torrents (academictorrents.com)
 * "Browse" --> select "Dataset" and "Go"
-* you can find those 2 files
+* You can find those 2 files
   - ImageNet LSVRC 2012 Training Set (Object Detection)
   - ImageNet LSVRC 2012 Validation Set (Object Detection)
 * Select those files and "Download"
 
 
 ### 2. Download dataset
-**IT TAKES TIME !!!**  (my case: about 35 hours)
-
+**Note that downloading entire dataset takes time !!!**  (my case: about 35 hours)
 * Right after you click "Download" at Academic Torrents, torrent file is downloaded
 * Click the downloaded torrent file, you can start application "Transmission" (Ubuntu 18.04 LTS) to download dataset.
 * **You may need to change configuration of "Transmission"** to start download dataset.
