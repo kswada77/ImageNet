@@ -1,6 +1,6 @@
-# ImageNet
+# ImageNet dataset preparation
 
-Describe the process to **prepare** ImageNet dataset from downloading from **Academic Torrents** to ...  
+Describe the process to **prepare** ImageNet dataset FROM downloading from **Academic Torrents** TO ...  
 Also, provide related **python scripts** for those preparations.
 
 note: OS of my machine is **Ubuntu 18.04 LTS**
