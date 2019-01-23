@@ -8,12 +8,13 @@ This page
   - To:   
 * also, provides related **python scripts** for the dataset preparations.
 
-Please note that the step and description here is totally from **my private experience**.
+Please note that the step and description here is totally from **my private experience**.  
 OS of my machine is **Ubuntu 18.04 LTS**
 
 Also, please note that currently largest ILSVRC dataset available via **Academic Torrents** is:  
-**ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB). 
-I downloaded this file for my deep learning study.  I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available at official ILSVRC organization are same as or not much different from that of ILSVRC 2012.
+  - **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
+I downloaded this file for my deep learning study.  
+I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available at official ILSVRC organization are same as or not much different from that of ILSVRC 2012.
 
 ---
 ## Overview of the step
