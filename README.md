@@ -9,7 +9,7 @@ This page
 * also, provides related **python scripts** for the dataset preparations.  
 note: OS of my machine is **Ubuntu 18.04 LTS**
 
-Please note that largest ILSVRC dataset available from Academic Torrents is:  
+Please note that largest ILSVRC dataset available via Academic Torrents is:  
 **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
 
 ---
