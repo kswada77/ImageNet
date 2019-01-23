@@ -4,8 +4,8 @@
 
 This page
 * describes the step to **prepare** ImageNet dataset
- - STARTING FROM downloading from **Academic Torrents**
- - TO ...  
+ - From:   downloading torrent file from  **Academic Torrents**
+ - To:   
 * also, provides related **python scripts** for the dataset preparations.
 note: OS of my machine is **Ubuntu 18.04 LTS**
 
@@ -17,14 +17,14 @@ Please note that largest ILSVRC dataset available from Academic Torrents is:
 
 No. | Step | File Size | Time (on my machine)
 :---:|:---|:---|:---
-1|Download ILSVRC 2012 torrent file|(small)|:rocket: 1-2 min.
-2|Download the datasets from Academic Torrents|147.9+6.7GB|:astonished: :sleepy: 35 hrs.
-3|Unarchive donwloaded dataset files and Untar training dataset|X|:fire: 50-60 min.
-4|Download ILSVRC 2015 development kit|XX MB|:rocket: 2-3 min.
-5|Download ILSVRC 2015 CLS-LOC dataset|155 GB|:astonished: :sleepy: XXX hrs.
+1|download ILSVRC 2012 torrent file|(small)|:rocket: 1-2 min.
+2|download ILSVRC 2012 dataset by torrenting|147.9+6.7GB|:astonished: :sleepy: 35 hrs.
+3|unarchive dataset files and untar training dataset|X|:fire: 50-60 min.
+4|download ILSVRC 2015 development kit|XX MB|:rocket: 2-3 min.
+5|download ILSVRC 2015 CLS-LOC dataset|155 GB|:astonished: :sleepy: XXX hrs.
 
 ---
-## 1. Find ImageNet LSVRC 2012 dataset and download torrent file
+## 1. Find ImageNet LSVRC 2012 datasets and download relevant torrent file from Academic Torrents
 * Go to [Academic Torrents](http://www.academictorrents.com)
 
 * "Browse" --> select "Dataset" and "Go"
@@ -37,7 +37,7 @@ No. | Step | File Size | Time (on my machine)
 
 
 ---
-## 2. Download the datasets from Academic Torrents
+## 2. Download ILSVRC 2012 datasets by torrenting
 * By clicking the downloaded torrent file, you can start application "Transmission" (if you use Ubuntu 18.04 LTS) to download dataset.
 
 * **You may need to change configuration of "Transmission"** to start download dataset.
@@ -53,7 +53,7 @@ No. | Step | File Size | Time (on my machine)
     These unchecking may result to **slower** downloading though.
 
 ---
-## 3. Unarchive donwloaded dataset files and Untar training dataset
+## 3. Unarchive donwloaded dataset files and untar training dataset
 * Unarchive downloaded training set and validation set files
 ```
   linux command example:  tar -xvf ILSVRC2012_img_train.tar
