@@ -19,14 +19,14 @@ Described is estimated time at **my machine and network environment** for refere
 
 No. | STEP | file size | required est. time | emoji
 :---:|:---|:---|:---|:---
-1|download ILSVRC 2012 torrent file|(small)|1-2 min.|:rocket:
+1|download torrent file for ILSVRC 2012 dataset|(small)|1-2 min.|:rocket:
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
-3|unarchive dataset files and untar training dataset|X|50-60 min.|:fire:
+3|unarchive datasets and untar training dataset|X|50-60 min.|:fire:
 4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
 5|download ILSVRC 2015 CLS-LOC dataset|155 GB|20 hrs.|:astonished::sleepy:
 
 ---
-## 1. Find ImageNet LSVRC 2012 datasets and download relevant torrent file from Academic Torrents
+## 1. Download torrent file for ImageNet LSVRC 2012 from Academic Torrents
 * Go to [Academic Torrents](http://www.academictorrents.com)
 
 * "Browse" --> select "Dataset" and "Go"
