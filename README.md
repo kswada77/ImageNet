@@ -8,18 +8,18 @@ Also, provide related **python scripts** for those preparations.  note: OS of my
 Please note that largest ILSVRC dataset available from Academic Torrents is **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
 Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.  
 
-# Step Overview
+## Step Overview
 
 STEP | Size | TIME
 --------------|------------|------------
-1. Find ImageNet LSVRC 2012 dataset and download torrent file |
+1. Find ImageNet LSVRC 2012 dataset and download torrent file | |
 2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
-3. Unarchive donwloaded dataset files and Untar training dataset  | 50 - 60 minutes
+3. Unarchive donwloaded dataset files and Untar training dataset  | | 50 - 60 minutes
 4. Download ILSVRC 2015 development kit | XX MB | 2-3 minutes
-5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB, about XXX HOURS
+5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB | about XXX HOURS
 
 
-### 1. Find ImageNet LSVRC 2012 dataset and download torrent file
+## 1. Find ImageNet LSVRC 2012 dataset and download torrent file
 * Go to [Academic Torrents](http://www.academictorrents.com)
 
 * "Browse" --> select "Dataset" and "Go"
@@ -31,7 +31,7 @@ STEP | Size | TIME
 * Select those files and "Download"
 
 
-### 2. Download the datasets from Academic Torrents
+## 2. Download the datasets from Academic Torrents
 **Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :astonished: :sleepy:)
 * Right after you click "Download" at Academic Torrents, torrent file is downloaded
 
@@ -50,7 +50,7 @@ STEP | Size | TIME
     These unchecking may result to **slower** downloading though.
 
 
-### 3. Unarchive donwloaded dataset files and Untar training dataset
+## 3. Unarchive donwloaded dataset files and Untar training dataset
 * Unarchive downloaded training set and validation set files.
   - example command: tar -xvf ILSVRC2012_img_train.tar
   Note that only unarchiving took **almost 20 minutes** on my machine
@@ -70,7 +70,7 @@ STEP | Size | TIME
 **BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap: :clap:  BEFORE DELETING ORIGINAL TAR FILES**
 
 
-### 4. Download ILSVRC 2015 development kit
+## 4. Download ILSVRC 2015 development kit
 * Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php)
 
 * You can find link for downloading **development kit** in the middle of the page
@@ -78,7 +78,7 @@ STEP | Size | TIME
 * Click the link, download the file, and unarchive the file  --> file name:  ILSVRC2014_devkit 
 
 
-### 5. Download ILSVRC2015 CLS-LOC dataset
+## 5. Download ILSVRC2015 CLS-LOC dataset
 **Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :astonished: :sleepy:)
 * Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php), same as development kit above
 
