@@ -6,7 +6,7 @@ This page
 * describes the step to **prepare** ImageNet dataset
   - From:   downloading torrent file from  **Academic Torrents**
   - To:   
-* also, provides related **python scripts** for the dataset preparations.
+* also, provides related **python scripts** for the dataset preparations.  
 note: OS of my machine is **Ubuntu 18.04 LTS**
 
 Please note that largest ILSVRC dataset available from Academic Torrents is:  
