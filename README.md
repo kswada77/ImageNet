@@ -17,9 +17,9 @@ I downloaded this file for my deep learning study.  I believe that the image dat
 
 ---
 ## Step Overview
-Estimated required time depends on your machine and network environment.
-Estimated time shown in the table below is the case of **my machine and network environment** for reference.
-At my environment, STEP No.2 and No.5 took more than XX hours for each. 
+Regarding to **estimated required time**:
+  - depends on your machine and network environment.
+  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than XX hours for each. 
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
 No. | STEP | file size | required est. time | emoji
