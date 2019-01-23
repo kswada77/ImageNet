@@ -11,13 +11,13 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 
 ## Step Overview
 
-No. | Step | File Size | Time
+No. | Step | File Size | Time (on my machine)
 :---:|:---|:---|:---
-1|Find ImageNet LSVRC 2012 dataset and download torrent file|(small)|:rocket: 1-2 minute
-2|Download the datasets from Academic Torrents|147.9 + 6.7 GB|:astonished: :sleepy: about 35 HOURS
+1|Find ImageNet LSVRC 2012 dataset and download torrent file|(small)|:rocket: 1-2 min.
+2|Download the datasets from Academic Torrents|147.9 + 6.7 GB|:astonished: :sleepy: 35 hrs.
 3|Unarchive donwloaded dataset files and Untar training dataset|X|:fire: 50-60 min.
 4|Download ILSVRC 2015 development kit|XX MB|:rocket: 2-3 minutes
-5|Download ILSVRC 2015 CLS-LOC dataset|155 GB|:astonishe: :sleepy: about XXX HOURS
+5|Download ILSVRC 2015 CLS-LOC dataset|155 GB|:astonished: :sleepy: XXX hrs.
 
 ---
 ## 1. Find ImageNet LSVRC 2012 dataset and download torrent file
