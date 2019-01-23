@@ -8,9 +8,10 @@ Also, provide related **python scripts** for those preparations.  note: OS of my
 Please note that largest ILSVRC dataset available from Academic Torrents is **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
 Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.  
 
-**Step Overview**
+# Step Overview
+
 STEP | Size | TIME
---------------| ------------ | ------------
+--------------|------------|------------
 1. Find ImageNet LSVRC 2012 dataset and download torrent file |
 2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
 3. Unarchive donwloaded dataset files and Untar training dataset  | 50 - 60 minutes
@@ -56,17 +57,17 @@ STEP | Size | TIME
 
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
-* In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**. Note that this is **NOT** batch script (such as using "argparse").
-'''
+* In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**. Note that this is **NOT** batch script (such as using "argparse").  
+```
 * This python script does:
   - create new directory for each tar file
   - untar original tar file into newly created directory
   - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
- '''
+ ```
   Note that untaring those 1000 tar files took **almost 30-40 minutes** :fire: on my machine
   
 * After executing the script, you find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.
-**BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap:  BEFORE DELETING ORIGINAL TAR FILES**
+**BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap: :clap:  BEFORE DELETING ORIGINAL TAR FILES**
 
 
 ### 4. Download ILSVRC 2015 development kit
