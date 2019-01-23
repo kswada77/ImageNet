@@ -68,17 +68,15 @@ No. | STEP | file size | required est. time | emoji
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
 * In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**  
-Note that this is **NOT** batch script (such as using "argparse").  
+Note that this is **NOT** batch script (such as using "argparse").
 ```
 This python script does:
   - create new directory for each tar file
   - untar original tar file into newly created directory
   - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
  ```
-* After executing the script, you find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.  
-**But please CHECK that untarring finished sucessfully :clap: :clap:  
-BEFORE deteleting original tar files**
-
+* After executing the script successfully, you should in find 1,000 subdirectories storing untarred JPEG files and 1,000 original but renamed (with "Z_" prefix) tar files. :clap: :clap:
+  You can delete those renamed tar files if you do not need.  But **please check before deleting** whether untarring finishes successfully.
 
 ---
 ## 4. Download ILSVRC 2015 development kit
@@ -86,7 +84,7 @@ BEFORE deteleting original tar files**
 
 * You can find link for downloading **development kit** in the middle of the page
 
-* Click the link, download the file, and unarchive the file  --> file name:  ILSVRC2014_devkit 
+* Click the link, download and unarchive the file  --> file name:  ILSVRC2014_devkit 
 
 
 ---
