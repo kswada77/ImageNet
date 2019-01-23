@@ -1,14 +1,18 @@
-# ImageNet dataset preparation
+# ImageNet dataset preparation 
 
 ** CURRENTLY EDITING **
 
-Describe the step to **prepare** ImageNet dataset STARTING FROM downloading from **Academic Torrents** TO ...  
-Also, provide related **python scripts** for those preparations.  note: OS of my machine is **Ubuntu 18.04 LTS**
+This page
+* describes the step to **prepare** ImageNet dataset
+ - STARTING FROM downloading from **Academic Torrents**
+ - TO ...  
+* also, provides related **python scripts** for the dataset preparations.
+note: OS of my machine is **Ubuntu 18.04 LTS**
 
 Please note that largest ILSVRC dataset available from Academic Torrents is:  
 **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
-Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.  
 
+---
 ## Step Overview
 
 No. | Step | File Size | Time (on my machine)
