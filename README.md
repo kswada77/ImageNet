@@ -16,7 +16,7 @@ Please note that largest ILSVRC dataset available from Academic Torrents is **Im
 
 
 ### 1. Find ImageNet LSVRC 2012 dataset and download torrent file
-* Go to Academic Torrents [http://www.academictorrents.com.]
+* Go to Academic Torrents: http://www.academictorrents.com
 * "Browse" --> select "Dataset" and "Go"
 * You can find those 2 files
   - ImageNet LSVRC 2012 Training Set (Object Detection)
