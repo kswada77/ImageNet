@@ -5,7 +5,7 @@
 Describe the process to **prepare** ImageNet dataset STARTING FROM downloading from **Academic Torrents** TO ...  
 Also, provide related **python scripts** for those preparations.  note: OS of my machine is **Ubuntu 18.04 LTS**
 
-Please note that largest ILSVRC dataset available from Academic Torrents is **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB). ImageNet LSVRC (ILSVRC) 2015 web page [http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php] states that "This dataset (CLS-LOC (object classification and localization) dataset: 155GB) is unchanged from ILSVRC2012 and ILSVRC2013.".  Therefore I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and development kit from ILSVRC 2015 web page.
+Please note that largest ILSVRC dataset available from Academic Torrents is **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB). [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php) states that "This dataset (CLS-LOC (object classification and localization) dataset: 155GB) is unchanged from ILSVRC2012 and ILSVRC2013.".  Therefore I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.
 
 
 1. Find ImageNet LSVRC 2012 dataset and download torrent file
@@ -16,7 +16,7 @@ Please note that largest ILSVRC dataset available from Academic Torrents is **Im
 
 
 ### 1. Find ImageNet LSVRC 2012 dataset and download torrent file
-* Go to Academic Torrents: http://www.academictorrents.com
+* Go to [Academic Torrents](http://www.academictorrents.com)
 * "Browse" --> select "Dataset" and "Go"
 * You can find those 2 files
   - ImageNet LSVRC 2012 Training Set (Object Detection)
