@@ -17,13 +17,13 @@ Please note that largest ILSVRC dataset available via Academic Torrents is:
 Estimated required time depends on your machine and network environment.
 Described is estimated time at **my machine and network environment** for reference.
 
-No. | Step | File Size | Time | emoji
-:---:|:---|:---|:---:|:---:
+No. | STEP | file size | required est. time | emoji
+:---:|:---|:---|:---|:---
 1|download ILSVRC 2012 torrent file|(small)|1-2 min.|:rocket:
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
 3|unarchive dataset files and untar training dataset|X|50-60 min.|:fire:
 4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
-5|download ILSVRC 2015 CLS-LOC dataset|155 GB|:20 hrs.|:astonished::sleepy
+5|download ILSVRC 2015 CLS-LOC dataset|155 GB|20 hrs.|:astonished::sleepy
 
 ---
 ## 1. Find ImageNet LSVRC 2012 datasets and download relevant torrent file from Academic Torrents
