@@ -75,8 +75,8 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 
 
 ### 5. Download ILSVRC2015 CLS-LOC dataset
-**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS**)
-* Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php), page same with development kit above
+**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :fire:)
+* Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php), same as development kit above
 
 * You can find link for downloading **CLS-LOC dataset** in the middle of the page
 
