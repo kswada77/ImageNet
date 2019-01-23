@@ -11,10 +11,10 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 ## Step Overview
 
 STEP | Size | TIME
---------------|------------|------------
-1. Find ImageNet LSVRC 2012 dataset and download torrent file | |
+:---|:---:|:------------:
+1. Find ImageNet LSVRC 2012 dataset and download torrent file | |  
 2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
-3. Unarchive donwloaded dataset files and Untar training dataset  | | 50 - 60 minutes
+3. Unarchive donwloaded dataset files and Untar training dataset | | 50 - 60 minutes
 4. Download ILSVRC 2015 development kit | XX MB | 2-3 minutes
 5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB | about XXX HOURS
 
@@ -66,7 +66,7 @@ STEP | Size | TIME
  ```
   Note that untaring those 1000 tar files took **almost 30-40 minutes** :fire: on my machine
   
-* After executing the script, you find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.
+* After executing the script, you find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.  
 **BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap: :clap:  BEFORE DELETING ORIGINAL TAR FILES**
 
 
