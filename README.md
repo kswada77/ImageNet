@@ -12,9 +12,9 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 
 STEP | Size | TIME
 :---|:---:|:------------:
-1. Find ImageNet LSVRC 2012 dataset and download torrent file | |  
+1. Find ImageNet LSVRC 2012 dataset and download torrent file | X | 
 2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
-3. Unarchive donwloaded dataset files and Untar training dataset | | 50 - 60 minutes
+3. Unarchive donwloaded dataset files and Untar training dataset | X | 50 - 60 minutes
 4. Download ILSVRC 2015 development kit | XX MB | 2-3 minutes
 5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB | about XXX HOURS
 
@@ -57,9 +57,10 @@ STEP | Size | TIME
 
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
-* In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**. Note that this is **NOT** batch script (such as using "argparse").  
+* In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**.  
+Note that this is **NOT** batch script (such as using "argparse").  
 ```
-* This python script does:
+This python script does:
   - create new directory for each tar file
   - untar original tar file into newly created directory
   - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
