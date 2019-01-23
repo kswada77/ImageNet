@@ -18,6 +18,10 @@ STEP | Size | TIME
 4. Download ILSVRC 2015 development kit | XX MB | 2-3 minutes
 5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB | about XXX HOURS
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ## 1. Find ImageNet LSVRC 2012 dataset and download torrent file
 * Go to [Academic Torrents](http://www.academictorrents.com)
