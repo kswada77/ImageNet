@@ -9,7 +9,7 @@ Please note that largest ILSVRC dataset available from Academic Torrents is **Im
 Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.  
 
 **Step Overview**
----- STEP --- | --- Size --- | --- TIME ---
+STEP | Size | TIME
 --------------| ------------ | ------------
 1. Find ImageNet LSVRC 2012 dataset and download torrent file |
 2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
@@ -57,14 +57,15 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
 * In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**. Note that this is **NOT** batch script (such as using "argparse").
-
+'''
 * This python script does:
   - create new directory for each tar file
   - untar original tar file into newly created directory
   - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
+ '''
   Note that untaring those 1000 tar files took **almost 30-40 minutes** :fire: on my machine
   
-* If you use this python script, after executing the script, you can find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.
+* After executing the script, you find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.
 **BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap:  BEFORE DELETING ORIGINAL TAR FILES**
 
 
@@ -77,7 +78,7 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 
 
 ### 5. Download ILSVRC2015 CLS-LOC dataset
-**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :fire:)
+**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :astonished: :sleepy:)
 * Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php), same as development kit above
 
 * You can find link for downloading **CLS-LOC dataset** in the middle of the page
