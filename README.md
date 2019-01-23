@@ -4,8 +4,8 @@
 
 This page
 * describes the step to **prepare** ImageNet dataset
- - From:   downloading torrent file from  **Academic Torrents**
- - To:   
+  - From:   downloading torrent file from  **Academic Torrents**
+  - To:   
 * also, provides related **python scripts** for the dataset preparations.
 note: OS of my machine is **Ubuntu 18.04 LTS**
 
