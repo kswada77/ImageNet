@@ -9,11 +9,12 @@ Please note that largest ILSVRC dataset available from Academic Torrents is **Im
 Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** as CLS-LOC 2015 dataset from Academic Torrents and **2015 development kit** from ILSVRC 2015 web page.  
 
 **Step Overview**
-1. Find ImageNet LSVRC 2012 dataset and download torrent file
-2. Download the datasets from Academic Torrents (147.9 GB + 6.74 GB, about 35 HOURS)
-3. Unarchive donwloaded dataset files and Untar training dataset  (50 - 60 minutes)
-4. Download ILSVRC 2015 development kit
-5. Download ILSVRC 2015 CLS-LOC dataset (155 GB, about XXX HOURS)
+---- STEP --- | --- Size --- | --- TIME ---
+1. Find ImageNet LSVRC 2012 dataset and download torrent file |
+2. Download the datasets from Academic Torrents | 147.9 GB + 6.74 GB | about 35 HOURS
+3. Unarchive donwloaded dataset files and Untar training dataset  | 50 - 60 minutes
+4. Download ILSVRC 2015 development kit | XX MB | 2-3 minutes
+5. Download ILSVRC 2015 CLS-LOC dataset | 155 GB, about XXX HOURS
 
 
 ### 1. Find ImageNet LSVRC 2012 dataset and download torrent file
@@ -29,7 +30,7 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
 
 
 ### 2. Download the datasets from Academic Torrents
-**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS**)
+**Note that downloading entire dataset takes time !!!**  (my case: **about 35 HOURS** :astonish::file:)
 * Right after you click "Download" at Academic Torrents, torrent file is downloaded
 
 * Click the downloaded torrent file, you can start application "Transmission" (Ubuntu 18.04 LTS) to download dataset.
@@ -60,10 +61,10 @@ Therefore, I downloaded **ImageNet LSVRC 2012 Training Set (Object Detection)** 
   - create new directory for each tar file
   - untar original tar file into newly created directory
   - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
-  Note that untaring those 1000 tar files took **almost 30-40 minutes** on my machine
+  Note that untaring those 1000 tar files took **almost 30-40 minutes** :file: on my machine
   
 * If you use this python script, after executing the script, you can find 2,000 files and subdirectories. 1,000 subdirestories are untarred one and the other 1,000 are original but renamed with "Z_" prefix tar files, which can be deleted manually if you do not need.
-**BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY BEFORE DELETING ORIGINAL TAR FILES**
+**BUT PLEASE CHECK THAT UNTARING FINISHED SUCCESSFULLY :clap:  BEFORE DELETING ORIGINAL TAR FILES**
 
 
 ### 4. Download ILSVRC 2015 development kit
