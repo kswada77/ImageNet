@@ -13,7 +13,8 @@ OS of my machine is **Ubuntu 18.04 LTS**
 
 Also, please note that currently largest ILSVRC dataset available via **Academic Torrents** is:  
   - **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
-I downloaded this file for my deep learning study.  
+
+I downloaded this file for my deep learning study.
 I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available at official ILSVRC organization are same as or not much different from that of ILSVRC 2012.
 
 ---
@@ -21,6 +22,7 @@ I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available a
 Regarding to **estimated required time**:
   - depends on your machine and network environment.
   - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than XX hours for each.  
+
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
 No. | step | file size | required est. time | emoji
