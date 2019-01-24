@@ -55,7 +55,7 @@ No. | step | file size | required est. time | emoji
 * For watching log, go to "Help" --> "Message Log".
 
 * **My case and tips** are:
-  - Downloading never started after waiting 24 hours. I checked "Message Log" and noticed that some relevant peers were found but the log shows endlessly "Ipv4 DHT not ready" and "IPv6 DHT not ready"
+  - Downloading never started after waiting 24 hours. I checked "Message Log" and noticed that some relevant peers were found but the log message kept showing "Ipv4 DHT not ready" and "IPv6 DHT not ready" endlessly.
   - So I opened "Settings" of the "Transmission" and go to "Network" tab.  Changed receiving connection port to 80
   - **Uncheck**: using random ports, using UPnP or NAT-PMP
   - **Uncheck** also:  all options  
