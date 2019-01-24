@@ -1,10 +1,10 @@
 # ImageNet dataset preparation for deep learning study
 
 ** CURRENTLY EDITING **  
-I have been really inspired and motivated by [PyImageSearchGurus](https://www.pyimagesearch.com) for studying and challenging deep learning for computer vision.  
-This is really awesome resources. I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.  
-ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me.  
-Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience.  
+I have been really inspired :smiley: and motivated :satisfied: by [PyImageSearchGurus](https://www.pyimagesearch.com) for studying and challenging deep learning for computer vision.  
+This is really awesome resources. :heart_eyes:  I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.  
+ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me. :dissapointed:   
+Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1:   
 
 ---
 This page
