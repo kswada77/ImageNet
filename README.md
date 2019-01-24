@@ -54,13 +54,12 @@ No. | step | file size | required est. time | emoji
 
 * For watching log, go to "Help" --> "Message Log".
 
-* **My case** is:
-  - Downloading never started after waiting 24 hours.
-  - Check "Message Log" and find that some relevant peers are found but "IPv6 DHT not ready"
-  - Open "Settings" of the "Transmission" and go to "Network" tab.  Chang receiving connection port to 80
+* **My case and tips** are:
+  - Downloading never started after waiting 24 hours. I checked "Message Log" and noticed that some relevant peers were found but the log shows endlessly "Ipv4 DHT not ready" and "IPv6 DHT not ready"
+  - So I opened "Settings" of the "Transmission" and go to "Network" tab.  Changed receiving connection port to 80
   - **Uncheck**: using random ports, using UPnP or NAT-PMP
   - **Uncheck** also:  all options  
-    These unchecking may result to **slower** downloading though.
+    These unchecking might result to **slower** downloading though.
 
 ---
 ## 3. Unarchive donwloaded dataset files and untar training dataset
