@@ -3,8 +3,8 @@
 ** CURRENTLY EDITING **  
 I have been really inspired :smiley: and motivated :satisfied: by [PyImageSearchGurus](https://www.pyimagesearch.com) for studying and challenging deep learning for computer vision.  
 This is really awesome resources. :heart_eyes:  I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.  
-ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me. :dissapointed:   
-Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1:   
+ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me. :disappointed:   
+Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1: :+1:    
 
 ---
 This page
@@ -13,19 +13,15 @@ This page
   - To:   
 * also, provides related **python scripts** for the dataset preparations.
 
-Please note that the step and description here is totally from **my private experience**.  
-
-Also, please note that currently largest ILSVRC dataset available via **Academic Torrents** is:  
+Please note that currently largest ILSVRC dataset available via **Academic Torrents** is:  
   - **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
-
-I downloaded this file for my deep learning study.
 I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available at official ILSVRC organization are same as or not much different from that of ILSVRC 2012.
 
 ---
 ## Overview of the step
 Regarding to **estimated required time**:
   - depends on your machine and network environment.
-  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than XX hours for each.  
+  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than 30 hours for each.  
 
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
@@ -33,9 +29,9 @@ No. | step | file size | required est. time | emoji
 :---:|:---|:---|:---|:---
 1|download torrent file for ILSVRC 2012 dataset|(small)|1-2 min.|:rocket:
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
-3|unarchive datasets and untar training dataset|X|50-60 min.|:fire:
+3|unarchive datasets and untar training dataset|n/a|50-60 min.|:fire:
 4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
-5|download ILSVRC 2015 CLS-LOC dataset|155 GB|20 hrs.|:astonished::sleepy:
+5|download ILSVRC 2015 CLS-LOC dataset|155 GB|30 hrs.|:astonished::sleepy:
 
 ---
 ## 1. Download torrent file for ImageNet LSVRC 2012 from Academic Torrents
