@@ -59,7 +59,7 @@ No. | step | file size | required est. time | emoji
   - Check "Message Log" and find that some relevant peers are found but "IPv6 DHT not ready"
   - Open "Settings" of the "Transmission" and go to "Network" tab.  Chang receiving connection port to 80
   - **Uncheck**: using random ports, using UPnP or NAT-PMP
-  - **Uncheck** also:  all options
+  - **Uncheck** also:  all options  
     These unchecking may result to **slower** downloading though.
 
 ---
