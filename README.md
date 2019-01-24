@@ -21,7 +21,7 @@ I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available a
 ## Overview of the step
 Regarding to **estimated required time**:
   - depends on your machine and network environment.
-  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than 30 hours for each.  
+  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, STEP No.2 and No.5 took more than 30 hours for each. :bangbang:  
 
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
@@ -54,7 +54,7 @@ No. | step | file size | required est. time | emoji
 
 * For watching log, go to "Help" --> "Message Log".
 
-* :heavy_check_mark: **My case and tips** are:
+* :barrot_box_with_check: **My case and tips** are:
   - Downloading never started after waiting 24 hours. I checked "Message Log" and noticed that some relevant peers were found but the log message kept showing "Ipv4 DHT not ready" and "IPv6 DHT not ready" endlessly.
   - So I opened "Settings" of the "Transmission" and go to "Network" tab.  Changed receiving connection port to 80
   - **Uncheck**: using random ports, using UPnP or NAT-PMP
@@ -79,7 +79,7 @@ This **python script** does:
  
 After executing the script successfully, you should in find 1,000 subdirectories storing untarred JPEG files and 1,000 original but renamed (with "Z_" prefix) tar files. :clap: :clap:  
 You can delete those renamed tar files if you do not need.  
-:heavy_exclamation_mark:  But **please check before deleting** whether untarring finishes successfully.
+:bangbang:  But **please check before deleting** whether untarring finishes successfully.
 
 
 ---
