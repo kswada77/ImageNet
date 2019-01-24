@@ -69,7 +69,7 @@ No. | step | file size | required est. time | emoji
 ```
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
-* In order to untar those files, you can use python scipt :ballog_box_with_check: **01_untar_all_tarfiles.py**  
+* In order to untar those files, you can use python scipt :ballot_box_with_check: **01_untar_all_tarfiles.py**  
 Note that this is **NOT** batch script (such as using "argparse").
 
 This **python script** does:  
