@@ -1,11 +1,11 @@
 # ImageNet dataset preparation for deep learning study
 
 ** CURRENTLY EDITING **  
-I have been really inspired and motivated by _Adrian Rosebrock's_ [PyImageSearchGurus](https://www.pyimagesearch.com) for studying and challenging deep learning for computer vision. :smiley: :satisfied:  
+I have been really inspired and motivated by **_Adrian Rosebrock's_** [PyImageSearchGurus](https://www.pyimagesearch.com) for studying and challenging deep learning for computer vision. :smiley: :satisfied:  
 This is awesome resources, really. :heart_eyes:  
 I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.  
 ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me. :disappointed:   
-Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1: :+1:    
+Instead, I tried downloading via **Academic Torrents** and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1: :+1:    
 
 ---
 This page
@@ -70,7 +70,7 @@ No. | step | file size | required est. time | emoji
 ```
 * You notice that validation set folder has **50,000 JPEG files**, but training set folder has **1,000 tar files**, which correspond to each image category.  You need to untar those files by youself.
 
-* In order to untar those files, you can use python scipt :ballot_box_with_check: **01_untar_all_tarfiles.py**  
+* In order to untar those files, you can use python scipt (**01_untar_all_tarfiles.py**)[https://github.com/kswada77/ImageNet/blob/master/01_untar_all_tarfiles.py]    
 Note that this is **NOT** batch script (such as using "argparse").
 
 This **python script** does:  
