@@ -72,12 +72,12 @@ No. | step | file size | required est. time | emoji
 
 * In order to untar those files, you can use python scipt **01_untar_all_tarfiles.py**  
 Note that this is **NOT** batch script (such as using "argparse").
-```
-This python script does:
-  - create new directory for each tar file
-  - untar original tar file into newly created directory
-  - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.
- ```
+
+This python script does:  
+  - create new directory for each tar file  
+  - untar original tar file into newly created directory  
+  - rename original tar file adding "Z_" prefix to be listed at the end of current directory, which is convenient deleting original tar files manually afterward.  
+
 * After executing the script successfully, you should in find 1,000 subdirectories storing untarred JPEG files and 1,000 original but renamed (with "Z_" prefix) tar files. :clap: :clap:
   You can delete those renamed tar files if you do not need.  But **please check before deleting** whether untarring finishes successfully.
 
