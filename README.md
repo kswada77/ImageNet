@@ -1,7 +1,12 @@
 # ImageNet dataset preparation for deep learning study
 
 ** CURRENTLY EDITING **
+I have been really inspired and motivated by PyImageSearchGurus [https://www.pyimagesearch.com/] for studying and challenging deep learning for computer vision.  
+This is really awesome resources. I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.
+ImageNet dataset is available at here [http://www.image-net.org], but only for non-commercial research and/or educational purposes. Unfortunately not available to me.
+Instead, I tried downloading via Academic Torrents and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience.
 
+---
 This page
 * describes the step to **prepare** ImageNet dataset
   - From:   downloading torrent file from  **Academic Torrents**
@@ -9,7 +14,6 @@ This page
 * also, provides related **python scripts** for the dataset preparations.
 
 Please note that the step and description here is totally from **my private experience**.  
-OS of my machine is **Ubuntu 18.04 LTS**
 
 Also, please note that currently largest ILSVRC dataset available via **Academic Torrents** is:  
   - **ImageNet LSVRC 2012 Training Set (Object Detection)** (147.9GB).  
@@ -48,7 +52,7 @@ No. | step | file size | required est. time | emoji
 
 ---
 ## 2. Download ILSVRC 2012 datasets by torrenting
-* By clicking the downloaded torrent file, you can start application "Transmission" (if you use Ubuntu 18.04 LTS) to download dataset.
+* By clicking the downloaded torrent file, you can start application "Transmission" (if your OS is Ubuntu 18.04 LTS) to download dataset.
 
 * **You may need to change configuration of "Transmission"** to start download dataset.
 
