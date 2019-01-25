@@ -22,7 +22,7 @@ I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available a
 ## Overview of the step
 Regarding to **estimated required time**:
   - depends on your machine and network environment.
-  - Estimated time shown in the table below is **the case of my machine and my (poor) network environment** for reference. At my environment, **STEP No.2 and No.5 took 35 hours and 40 hour for each**. :bangbang: :astonished:  
+  - Estimated time shown in the table below is **the case of my machine and my (poor) network environment** for reference. At my environment, **STEP No.2 and No.5 took 35 hours and 43 hour for each**. :bangbang: :astonished:  
 
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
@@ -32,7 +32,7 @@ No. | step | file size | required est. time | feelings
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
 3|unarchive datasets and untar training dataset|n/a|50-60 min.|:fire:
 4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
-5|download ILSVRC 2015 CLS-LOC dataset|166 GB|40 hrs.|:astonished::sleepy:
+5|download ILSVRC 2015 CLS-LOC dataset|166 GB|43 hrs.|:astonished::sleepy:
 
 ---
 ## 1. Download torrent file for ImageNet LSVRC 2012 from Academic Torrents
@@ -93,7 +93,7 @@ You can delete those renamed tar files if you do not need.
 
 
 ---
-## 5. Download ILSVRC2015 CLS-LOC dataset
+## 5. Download ILSVRC 2015 CLS-LOC dataset
 * Go to [ImageNet LSVRC (ILSVRC) 2015 web page](http://image-net.org/challenges/LSVRC/2015/download-images-3j16.php), same as development kit above
 
 * You can find link for downloading **CLS-LOC dataset** in the middle of the page
