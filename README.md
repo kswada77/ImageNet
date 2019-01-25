@@ -5,7 +5,7 @@ I have been really inspired and motivated by **_Adrian Rosebrock's_** [PyImageSe
 This is awesome resources, really. :heart_eyes:  
 I could have challenged to various deep learning architectures, techniques and data preparation, including one of most famous dataset, **ImageNet**.  
 ImageNet dataset is available at [here](http://www.image-net.org), but only for non-commercial research and/or educational purposes. Unfortunately not available to me. :disappointed:   
-Instead, I tried downloading via **Academic Torrents** and prepare data for my deep learning studies. I would like to share the steps for this preparation from my experience. :+1: :+1:    
+Instead, I tried downloading via **Academic Torrents** and prepare data for my deep learning studies. I would like to share from my experience the steps for this preparation. :+1: :+1:    
 
 ---
 This page
@@ -22,7 +22,7 @@ I believe that the image datasets of other ILSVRC (2013, 2014, 2015) available a
 ## Overview of the step
 Regarding to **estimated required time**:
   - depends on your machine and network environment.
-  - Estimated time shown in the table below is **the case of my machine and network environment** for reference. At my environment, **STEP No.2 and No.5 took more than 30 hours for each**. :bangbang:  
+  - Estimated time shown in the table below is **the case of my machine and my (poor) network environment** for reference. At my environment, **STEP No.2 and No.5 took 35 hours and 40 hour for each**. :bangbang: :astonished:  
 
 **You can start No.5 in parallel** with No.3 and No.4 after finishing No.2.
 
@@ -32,7 +32,7 @@ No. | step | file size | required est. time | feelings
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
 3|unarchive datasets and untar training dataset|n/a|50-60 min.|:fire:
 4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
-5|download ILSVRC 2015 CLS-LOC dataset|155 GB|30 hrs.|:astonished::sleepy:
+5|download ILSVRC 2015 CLS-LOC dataset|166 GB|40 hrs.|:astonished::sleepy:
 
 ---
 ## 1. Download torrent file for ImageNet LSVRC 2012 from Academic Torrents
@@ -98,4 +98,4 @@ You can delete those renamed tar files if you do not need.
 
 * You can find link for downloading **CLS-LOC dataset** in the middle of the page
 
-* Click the link, download the file, and unarchive the file  --> file name: 
+* Click the link, download the file, and unarchive the file  --> file name: ILSVRC2015_CLS-LOC
