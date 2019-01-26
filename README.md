@@ -28,10 +28,10 @@ Regarding to **estimated required time**:
 
 No. | step | file size | required est. time | feelings
 :---:|:---|:---|:---|:---
-1|download torrent file for ILSVRC 2012 dataset|(small)|1-2 min.|:rocket:
+1|download torrent file for ILSVRC 2012 dataset|(small)|a few seconds|:rocket:
 2|download ILSVRC 2012 dataset by torrenting|147.9+6.7 GB|35 hrs.|:astonished::sleepy:
 3|unarchive datasets and untar training dataset|n/a|50-60 min.|:fire:
-4|download ILSVRC 2015 development kit|7.4 MB|2-3 min.|:rocket:
+4|download ILSVRC 2015 development kit|7.4 MB|a few seconds|:rocket:
 5|download ILSVRC 2015 CLS-LOC dataset|166 GB|43 hrs.|:astonished::sleepy:
 
 ---
